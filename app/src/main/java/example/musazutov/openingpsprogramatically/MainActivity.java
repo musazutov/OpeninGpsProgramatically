@@ -35,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+
+
         this.setFinishOnTouchOutside(true);
 
         // Todo Location Already on  ... start
