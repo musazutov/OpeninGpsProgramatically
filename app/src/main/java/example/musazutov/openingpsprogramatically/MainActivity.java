@@ -50,6 +50,8 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+
         if (!manager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
             Log.e("keshav","Gps already enabled");
             Toast.makeText(MainActivity.this,"Gps not enabled",Toast.LENGTH_SHORT).show();
