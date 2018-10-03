@@ -67,6 +67,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void enableLoc() {
 
+
+
+
         if (googleApiClient == null) {
             googleApiClient = new GoogleApiClient.Builder(MainActivity.this)
                     .addApi(LocationServices.API)
